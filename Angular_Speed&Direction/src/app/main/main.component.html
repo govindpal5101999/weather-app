@@ -1,0 +1,35 @@
+<table class="main">
+    <tr>
+        <th>Post Request</th>
+        <th>GetByDateTime Request</th>
+        <th>DeleteAll Request</th>
+        <th>Display Data</th>
+    </tr>
+    <tr>
+        <td class="box">
+            <h1>select json file to post data into database</h1>
+            <!-- for multiple files -->
+            <input id="files" type="file" (change)="selectFile($event)" name="files[]" multiple />
+            <span id="data"></span>          
+            <button [disabled]="!this.jsonData" (click)="saveFile()">Save</button>
+
+        </td>
+        <td class="box">
+            <div id="mycontainer">
+                <input type="datetime-local" class="form-control" [(ngModel)]="mydatetime" />
+                <button (click)="changeDateTime()">getData</button>
+            </div>
+        </td>
+        <td class="box">
+            <button (click)="deleteAllData()">DeleteAll</button>
+        </td>
+        <td class="box">
+            <h4>No Data Available </h4>
+            <div class="ex1" *ngFor='let arraylist of arrayLists'>
+                id:{{arraylist.id}}<br> refTime: {{arraylist.header.refTime}}
+            </div>
+        </td>
+    </tr>
+
+</table>
+<div id="map"></div>

@@ -1,0 +1,31 @@
+#map{
+    height: 72vh;
+    width: 100vw;
+    position: absolute;
+    
+}
+
+.box{
+    border: 1px solid black;
+  }
+  
+  .main{
+    height: 20vh;
+    width: 100%;
+  }
+  
+  .mydata{
+    width: 10%;
+    overflow-y: scroll;
+   
+  }
+  
+  div.ex1 {
+    background-color: lightblue;
+    overflow: scroll;
+    position: absolute;
+    height: 94px;
+    top: 95px;
+    display: flex;
+    word-wrap: break-word;
+  }

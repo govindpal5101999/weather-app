@@ -1,0 +1,31 @@
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Weather Data</a>
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" routerLink="/map">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/main">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/daynight">DayNight</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Other Layers</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" routerLink="/temp">Temperature</a></li>
+              <li><a class="dropdown-item" routerLink="/cloud">Cloud</a></li>
+              <li><a class="dropdown-item" routerLink="/pressure">Pressure</a></li>
+              <li><a class="dropdown-item" routerLink="/precipitation">Precipitation</a></li>
+              <li><a class="dropdown-item" routerLink="/humi">Humidity</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <router-outlet>
+      </router-outlet>
