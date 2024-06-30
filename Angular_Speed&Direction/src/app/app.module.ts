@@ -19,6 +19,7 @@ import { PressureComponent } from './pressure/pressure.component';
 import { PrecipitationComponent } from './precipitation/precipitation.component';
 import { HumidityComponent } from './humidity/humidity.component';
 import { DaynightComponent } from './daynight/daynight.component';
+import { HighchartsComponent } from './highcharts/highcharts.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DaynightComponent } from './daynight/daynight.component';
     PressureComponent,
     PrecipitationComponent,
     HumidityComponent,
-    DaynightComponent
+    DaynightComponent,
+    HighchartsComponent
   ],
   imports: [
     BrowserModule,

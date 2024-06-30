@@ -23,6 +23,7 @@
     "@joergdietrich/leaflet.terminator": "^1.1.0",
     "bootstrap": "^5.2.3",
     "express": "^3.4.4",
+    "highcharts": "^11.4.3",
     "jquery": "^3.6.3",
     "leaflet": "^1.8.0",
     "leaflet-velocity": "^2.1.2",

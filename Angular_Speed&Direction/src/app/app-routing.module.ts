@@ -8,6 +8,7 @@ import { MapComponent } from './map/map.component';
 import { PrecipitationComponent } from './precipitation/precipitation.component';
 import { PressureComponent } from './pressure/pressure.component';
 import { TemperatureComponent } from './temperature/temperature.component';
+import { HighchartsComponent } from './highcharts/highcharts.component';
 
 const routes: Routes = [
   {
@@ -46,6 +47,10 @@ const routes: Routes = [
   {
     path: 'daynight',
     component: DaynightComponent
+  },
+  {
+    path: 'highcharts',
+    component: HighchartsComponent
   }
 ];
 
