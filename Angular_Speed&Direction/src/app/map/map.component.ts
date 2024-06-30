@@ -10,7 +10,6 @@ import OSM from "ol/source/OSM";
 import ol from '../../assets/js/ol.js';
 import TileLayer from "ol/layer/Tile";
 import TileWMS from 'ol/source/TileWMS';
-import { WindLayer } from 'openlayers-wind';
 import View from "ol/View";
 import { GetmapService } from '../service/getmap.service';
 // declare var Windy: any;
@@ -58,7 +57,7 @@ googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
       displayValues: true,
       displayOptions: {
         velocityType: "Wind",
-        position: "bottomleft",
+        position: "topleft",
         emptyString: "No wind data",
         showCardinal: true,
       },

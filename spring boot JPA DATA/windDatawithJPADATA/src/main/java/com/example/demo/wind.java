@@ -24,7 +24,7 @@ import com.fasterxml.jackson.annotation.JsonRawValue;
 
 
 @Entity
-@Table(name="newgiszone")
+@Table(name="newgis")
 
 public class wind {
 	@Id
